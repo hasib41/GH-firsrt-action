@@ -1,0 +1,12 @@
+name: second workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: print hi&bye
+        run: |
+            echo "hello"
+            echo "Bye"
+            
+      
